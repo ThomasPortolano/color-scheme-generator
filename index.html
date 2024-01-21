@@ -9,7 +9,7 @@
     <body>
         <h1>Color Scheme Generator</h1>
         <form id="color-picker">
-            <label for="scheme">Choose your scheme</label>
+            <input type="color" id="hex-color">     
             <select name="scheme" id="scheme">
                 <option value="monochrome">Monochrome</option>
                 <option value="monochrome-dark">Monochrome-dark</option>
@@ -19,8 +19,8 @@
                 <option value="triad">Triad</option>
                 <option value="quad">Quad</option>
             </select>
-            <input type="color" id="hex-color">
-            <input type="submit" id="submit-btn" value="Generate color scheme">
+            <label for="scheme" id="scheme"></label>
+            <input type="submit" id="submit-btn" value="Get color scheme">
         </form>
         <main id="color-container">
             <!-- <div id="hex-value-name"></p> -->
