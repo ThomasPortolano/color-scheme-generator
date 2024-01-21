@@ -47,8 +47,10 @@ function renderColors(color){
                 childHexContainer.id = `child-hex-container-${i+1}`
                 childHexContainer.innerText = colorArray[i]
                 child.appendChild(childHexContainer)
-                console.log(parent)                
-            }
-            
-}
+                
+                child.addEventListener('click', (e) => {
+                    navigator.clipboard.writeText(e.target.outerText)
+                    alert(`Copied ${e.target.outerText} to your clipboard!`)
+                });          
+}}
 

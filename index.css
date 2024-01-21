@@ -52,7 +52,7 @@ select#scheme {
     padding: 0.6em;
     border: 0.3px none D5D4D8;
     border-radius: 5px;
-    width: 20em;
+    max-width: 20em;
 }
 
 #submit-btn {
