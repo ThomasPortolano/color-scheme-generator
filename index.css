@@ -1,3 +1,24 @@
 body {
     font-family: 'Source Sans 3', sans-serif;
 }
+
+#color-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.color-output {
+    border: 1px solid red;
+    height: 400px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.child-hex-container {
+    border-color: 1px solid blue;
+    text-align: center;
+    background-color: white;
+}
+
